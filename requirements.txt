@@ -1,4 +1,8 @@
 Flask
 instaloader
+<<<<<<< Updated upstream
 uvicorn
 fastapi
+=======
+flask
+>>>>>>> Stashed changes

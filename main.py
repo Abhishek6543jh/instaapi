@@ -3,6 +3,15 @@ import instaloader
 
 
 app = Flask(__name__)
+<<<<<<< Updated upstream
+=======
+@app.route('/', methods=['GET'])
+def hlo():
+    return jsonify({
+            "test" :8
+        }), 200
+
+>>>>>>> Stashed changes
 
 @app.route('/instadata', methods=['GET'])
 def get_instagram_data():
