@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 
-app =FastAPI
+app =FastAPI()
 
-@app.route("/")
+@app.get('/')
 async def root():
     return {
         'hello':'hlo'
