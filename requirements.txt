@@ -1,2 +1,2 @@
 Flask
-instaloader==4.10
+instaloader
